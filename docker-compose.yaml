@@ -1,0 +1,9 @@
+version: "3.7"
+services:
+  beat:
+    image: watson-beat:latest
+    entrypoint: []
+    volumes:
+      - ./src:/usr/app
+    #working_dir: /usr/app
+
